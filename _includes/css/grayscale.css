@@ -135,25 +135,25 @@ a:focus {
     }
 }
     /* centered navigation */
- /* .nav.navbar-nav { */
-     /* float: left; */
- /* } */
- /* .nav.navbar-nav { */
-     /* clear: left; */
-     /* float: left; */
-     /* margin: 0; */
-     /* padding: 0; */
-     /* position: relative; */
-     /* left: 50%; */
-     /* text-align: center; */
- /* } */
- /* .nav.navbar-nav > li { */
-     /* position: relative; */
-     /* right: 50%; */
- /* } */
- /* .nav.navbar-nav li { */
-    /* text-align: left */
- /* } */
+ .nav.navbar-nav {
+     float: left;
+ }
+ .nav.navbar-nav {
+     clear: left;
+     float: left;
+     margin: 0;
+     padding: 0;
+     position: relative;
+     left: 50%;
+     text-align: center;
+ }
+ .nav.navbar-nav > li {
+     position: relative;
+     right: 50%;
+ }
+ .nav.navbar-nav li {
+    text-align: left
+ }
 
 .intro {
     display: table;
@@ -183,12 +183,6 @@ a:focus {
 .intro .intro-body .intro-text {
     font-size: 18px;
     text-shadow: 1px 1px 1px {{ site.color.primary-dark }};
-}
-
-@media(min-width:480px) {
-    .intro { 
-        background: url(/img/proposal-trim2.jpg) no-repeat bottom center scroll;
-    }
 }
 
 @media(min-width:767px) {
@@ -376,7 +370,7 @@ a:focus {
 
 .download-section {
     width: 100%;
-    padding: 00px 0;
+    padding: 50px 0;
     color: #fff;
     background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
