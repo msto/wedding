@@ -185,6 +185,12 @@ a:focus {
     text-shadow: 1px 1px 1px {{ site.color.primary-dark }};
 }
 
+@media(min-width:480px) {
+    .intro { 
+        background: url(/img/proposal-trim2.jpg) no-repeat bottom center scroll;
+    }
+}
+
 @media(min-width:767px) {
     .intro {
         height: 100%;
