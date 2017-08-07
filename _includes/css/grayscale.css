@@ -133,82 +133,27 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
+}
     /* centered navigation */
- .nav.navbar-nav {
-     float: left;
- }
- .nav.navbar-nav {
-     clear: left;
-     float: left;
-     margin: 0;
-     padding: 0;
-     position: relative;
-     left: 50%;
-     text-align: center;
- }
- .nav.navbar-nav > li {
-     position: relative;
-     right: 50%;
- }
- .nav.navbar-nav li {
-    text-align: left
- }
-    .dropdown-toggle:hover + .dropdown-menu, .dropdown-menu:hover {
-        display: block;
-    }
-
-    .dropdown-menu {
-        background-color: transparent;
-        min-width: 50px;
-        border-radius: 0px;
-        border: 0px;
-        box-shadow: none;
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-
-    .dropdown-menu>li>a {
-        color: #fcfcfc;
-        padding: 15px;
-    }
-
-    .dropdown-menu>li>a:hover {
-        background-color: {{ site.color.primary-dark }};
-        /*border-bottom: 1px solid rgba(0,0,0,.3);*/
-    }
-}
-
-.dropdown-toggle {
-    cursor: pointer;
-}
-
-.dropdown-toggle + .dropdown-menu {
-    /*display: block;*/
-    padding: 0;
-}
-
-.dropdown-menu {
-    background-color: transparent;
-    min-width: 50px;
-    border-radius: 0px;
-    border: 0px;
-    box-shadow: none;
-    width: 100%;
-    /*padding: 0;*/
-    /*text-align: center;*/
-}
-
-.dropdown-menu>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.dropdown-menu>li>a:hover {
-    background-color: {{ site.color.primary-dark }};
-    /*border-bottom: 1px solid rgba(0,0,0,.3);*/
-}
-
+ /* .nav.navbar-nav { */
+     /* float: left; */
+ /* } */
+ /* .nav.navbar-nav { */
+     /* clear: left; */
+     /* float: left; */
+     /* margin: 0; */
+     /* padding: 0; */
+     /* position: relative; */
+     /* left: 50%; */
+     /* text-align: center; */
+ /* } */
+ /* .nav.navbar-nav > li { */
+     /* position: relative; */
+     /* right: 50%; */
+ /* } */
+ /* .nav.navbar-nav li { */
+    /* text-align: left */
+ /* } */
 
 .intro {
     display: table;
