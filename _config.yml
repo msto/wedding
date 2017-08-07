@@ -6,7 +6,9 @@ description: "March 24, 2018 | Cambridge, Massachusetts"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary-dark: '#196980'
+  # primary-dark: '#196980'
+  # primary-dark: '#10193c'
+  primary-dark: '#213c61'
   primary-light: '#fff'
   links: '#d8dcd6'
 
@@ -20,7 +22,7 @@ social:
 
 site-map:
     menu:
-        # - home
+        - home
         - details
         - travel
         - registry

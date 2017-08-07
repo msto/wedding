@@ -256,6 +256,96 @@ a:focus {
     }
 }
 
+.details-intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/party.png) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.details-intro .details-intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.details-intro .details-intro-body .details-brand-heading {
+    font-size: 40px;
+    text-shadow: 2px 2px 1px {{ site.color.primary-dark }};
+}
+
+.details-intro .details-intro-body .details-intro-text {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px {{ site.color.primary-dark }};
+}
+
+@media(min-width:767px) {
+    .details-intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .details-intro .details-intro-body .details-brand-heading {
+        font-size: 100px;
+    }
+
+    .details-intro .details-intro-body .details-intro-text {
+        font-size: 25px;
+    }
+}
+
+.travel-intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(/img/ice_skating_trim.jpg) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.travel-intro .travel-intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.travel-intro .travel-intro-body .travel-brand-heading {
+    font-size: 40px;
+    text-shadow: 2px 2px 1px {{ site.color.primary-dark }};
+}
+
+.travel-intro .travel-intro-body .travel-intro-text {
+    font-size: 18px;
+    text-shadow: 1px 1px 1px {{ site.color.primary-dark }};
+}
+
+@media(min-width:767px) {
+    .travel-intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .travel-intro .travel-intro-body .travel-brand-heading {
+        font-size: 100px;
+    }
+
+    .travel-intro .travel-intro-body .travel-intro-text {
+        font-size: 25px;
+    }
+}
+
 .btn-circle {
     width: 70px;
     height: 70px;
