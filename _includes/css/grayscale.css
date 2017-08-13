@@ -17,6 +17,15 @@ html {
     height: 100%;
 }
 
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 0;
+  border-top: 1px solid {{ site.color.primary-dark }};
+}
+
 h1,
 h2,
 h3,
@@ -67,10 +76,11 @@ a:focus {
 
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: "Josefin Sans",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.primary-dark }};
+    background-color: none;
+    /* border-bottom: 1px solid rgba(255,255,255,.3); */
+    /* background-color: {{ site.color.primary-dark }}; */
 }
 
 .navbar-custom .navbar-brand {
@@ -155,48 +165,65 @@ a:focus {
     text-align: left
  }
 
-.intro {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(/img/proposal-trim2.jpg) no-repeat bottom center scroll;
-    background-color: {{ site.color.primary-dark }};
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+@media(max-width:766px) {
+  .intro {
+      display: table;
+      width: 100%;
+      height: auto;
+      padding: 100px 0;
+      text-align: center;
+      color: #fff;
+      background: url(/img/proposal-767.jpg) no-repeat bottom center scroll;
+      background-color: {{ site.color.primary-dark }};
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+  }
+
+  .intro .intro-body {
+      display: table-cell;
+      vertical-align: middle;
+  }
+  
+  .intro .intro-body .brand-heading {
+      font-size: 40px;
+  }
+  
+  .intro .intro-body .intro-text {
+      font-size: 18px;
+  }
 }
 
-.intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.intro .intro-body .brand-heading {
-    font-size: 40px;
-    text-shadow: 2px 2px 1px {{ site.color.primary-dark }};
-}
-
-.intro .intro-body .intro-text {
-    font-size: 18px;
-    text-shadow: 1px 1px 1px {{ site.color.primary-dark }};
-}
-
-@media(min-width:767px) {
+@media screen and (min-width:767px) {
     .intro {
         height: 100%;
         padding: 0;
+        background: url(/img/proposal-trim2.jpg) no-repeat bottom center scroll;
+        display: table;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        background-color: {{ site.color.primary-dark }};
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        -o-background-size: cover;
     }
 
+    .intro .intro-body {
+        display: table-cell;
+        vertical-align: middle;
+    }
+  
     .intro .intro-body .brand-heading {
         font-size: 100px;
+        text-shadow: 2px 2px 1px {{ site.color.sky-blue }};
     }
 
     .intro .intro-body .intro-text {
         font-size: 25px;
+        text-shadow: 1px 1px 1px {{ site.color.sky-blue }};
     }
 }
 

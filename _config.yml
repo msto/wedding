@@ -10,6 +10,7 @@ color:
   # primary-dark: '#10193c'
   primary-dark: '#213c61'
   primary-light: '#fff'
+  sky-blue: '#75a0d7'
   links: '#d8dcd6'
 
 # Footer settings
